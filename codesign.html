@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codesign</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ramaraja&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./codesign.css">
+</head>
+
+<body>
+    <!-- myHeader -->
+    <div class="myHeader ">
+        <!-- <h1>Hi</h1> -->
+        <ul class="d-flex list-unstyled Ramaraja justify-content-start align-items-center">
+            <li>
+                <a href="#1">Home</a>
+            </li>
+            <li>
+                <a href="#2">Work</a>
+            </li>
+            <li>
+                <a href="#3">About</a>
+            </li>
+            <li>
+                <a href="#4">Service</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- slide_nav -->
+    <div class="slide_nav_1">
+        <div class="slide_nav">
+            <div class="logo">
+                <img src="./image/head-only-2.png" alt="">
+            </div>
+            <!-- myHeader -->
+            <div class="myHeader2 ">
+                <!-- <h1>Hi</h1> -->
+                <ul class="list-unstyled Ramaraja">
+                    <li>
+                        <a href="#1">Home</a>
+                    </li>
+                    <li>
+                        <a href="#2">Work</a>
+                    </li>
+                    <li>
+                        <a href="#3">About</a>
+                    </li>
+                    <li>
+                        <a href="#4">Service</a>
+                    </li>
+                </ul>
+                <div class="blueline"></div>
+                <div class="left_info">
+                    <div class="fb_wrap d-flex align-items-baseline justify-content-center">
+                        <div class="fb_icon pr-3 svg2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                            </svg>
+                        </div>
+                        <p class="JetBrains whitee">Anonymous</p>
+                    </div>
+                    <div class="inta_wrap d-flex align-items-baseline justify-content-center">
+                        <div class="inta_icon pr-3 svg2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                            </svg>
+                        </div>
+                        <p class="JetBrains whitee">@casaii</p>
+                    </div>
+                    <div class="phone_wrap d-flex align-items-baseline justify-content-center">
+                        <div class="phone_icon pr-3 svg2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z" />
+                            </svg>
+                        </div>
+                        <p class="JetBrains whitee">0911-909-558</p>
+                    </div>
+                    <div class="email_wrap d-flex align-items-baseline justify-content-center">
+                        <div class="email_icon pr-3 svg2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M511.6 36.86l-64 415.1c-1.5 9.734-7.375 18.22-15.97 23.05c-4.844 2.719-10.27 4.097-15.68 4.097c-4.188 0-8.319-.8154-12.29-2.472l-122.6-51.1l-50.86 76.29C226.3 508.5 219.8 512 212.8 512C201.3 512 192 502.7 192 491.2v-96.18c0-7.115 2.372-14.03 6.742-19.64L416 96l-293.7 264.3L19.69 317.5C8.438 312.8 .8125 302.2 .0625 289.1s5.469-23.72 16.06-29.77l448-255.1c10.69-6.109 23.88-5.547 34 1.406S513.5 24.72 511.6 36.86z" />
+                            </svg>
+                        </div>
+                        <p class="JetBrains whitee">
+                            <a class="" href="mailto:cassey10190@gmail.com">
+                                cassey10190@gmail.com
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bg2 -->
+    <div class="bg2">
+        <!-- <img src="./image/BG_1.png" alt=""> -->
+    </div>
+    <!-- bg3 -->
+    <div class="bg3">
+        <!-- <img src="./image/BG-line.png" alt=""> -->
+    </div>
+    <a href="#1">
+        <svg class="bgline" width="60" height="140" viewBox="0 0 56 134" xmlns="http://www.w3.org/2000/svg">
+            <path id="test" d="M53 2L3.57966 38.3284L51.8407 74.7129L3 88.6191L46.7173 132.303" fill="none"
+                stroke="#00F0FF" stroke-width="3" />
+        </svg>
+    </a>
+
+    <div id="wrapper">
+
+
+        <!-- menu_btn -->
+        <div class="menu_btn">
+            <div class="menu_line">
+                <span class="line_up"></span>
+                <span class="line_middle"></span>
+                <span class="line_down"></span>
+            </div>
+        </div>
+
+
+        <!-- 01 Home -->
+        <section class="home" id="1">
+            <!-- point_right -->
+            <div class="point_right_wrap">
+                <div class="point_right d-flex justify-content-center align-items-center">
+
+                    <a href="#1" id="one" class="roll mb-3"></a>
+                    <a href="#2" id="two" class="roll mb-3"></a>
+                    <a href="#3" id="three" class="roll mb-3"></a>
+                    <a href="#4" id="four" class="roll">
+                        <svg class="period" width="22" height="36" viewBox="0 0 22 36" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.7598 19.6143C11.8832 19.8655 10.9573 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C14.5436 0 18.3795 3.03028 19.5969 7.1801C22.2179 12.1742 24.2277 26.0166 13.954 35.5H9.45399C12.7279 32.382 18.2767 25.1225 12.7598 19.6143Z"
+                                fill="#00F0FF" />
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+            <!-- pointup -->
+            <div class="container pointup">
+                <div class="row justify-content-end">
+                    <div class="asset_jq_1 d-flex  align-items-center">
+                        <!-- svg -->
+                        <div class="svg_c">
+                            <svg viewbox="0 0 110 110" width="110" heigh="110">
+                                <circle class="circle_move jqmv" cx="55" cy="55" r="52" fill="none" stroke="#00f0ff"
+                                    stroke-width="6">
+                            </svg>
+                        </div>
+                        <div class="circleline_1 d-flex justify-content-center align-items-center">
+                            <div class="circle_1 d-flex
+                            justify-content-center
+                            align-items-center">
+                                <p class="JetBrains">JQ</p>
+                            </div>
+                        </div>
+                        <div class="line_1"></div>
+                        <div class="whiteball"></div>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="asset_css_1 d-flex  align-items-center">
+                        <!-- svg -->
+                        <div class="svg_c">
+                            <svg viewbox="0 0 110 110" width="110" heigh="110">
+                                <circle class="circle_move cssmv" cx="55" cy="55" r="52" fill="none" stroke="#00f0ff"
+                                    stroke-width="6">
+                            </svg>
+                        </div>
+                        <div class="circleline_1 d-flex justify-content-center align-items-center">
+                            <div class="circle_1 d-flex
+                            justify-content-center
+                            align-items-center">
+                                <p class="JetBrains">Css</p>
+                            </div>
+                        </div>
+                        <div class="line_1"></div>
+                        <div class="whiteball"></div>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="asset_html_1 d-flex  align-items-center">
+                        <!-- svg -->
+                        <div class="svg_c">
+                            <svg viewbox="0 0 110 110" width="110" heigh="110">
+                                <circle class="circle_move htmlmv" cx="55" cy="55" r="52" fill="none" stroke="#00f0ff"
+                                    stroke-width="6">
+                            </svg>
+                        </div>
+                        <div class="circleline_1 d-flex justify-content-center align-items-center">
+                            <div class="circle_1 d-flex
+                            justify-content-center
+                            align-items-center">
+                                <p class="JetBrains">Html</p>
+                            </div>
+                        </div>
+                        <div class="line_1"></div>
+                        <div class="whiteball"></div>
+                    </div>
+                </div>
+                <!-- <div class="head">
+                    <img src="./image/head_1.png" alt="">
+                </div> -->
+            </div>
+            <!-- head -->
+            <div class="head">
+                <img src="./image/head_1.png" alt="">
+            </div>
+
+
+            <!-- pointdn -->
+            <div class="container pointdn">
+                <div class="row justify-content-center">
+                    <div class="asset_ai_1 d-flex  align-items-center">
+                        <!-- svg -->
+                        <div class="svg_c">
+                            <svg viewbox="0 0 110 110" width="110" heigh="110">
+                                <circle class="circle_move aimv" cx="55" cy="55" r="52" fill="none" stroke="#00f0ff"
+                                    stroke-width="6">
+                            </svg>
+                        </div>
+                        <div class="circleline_2 d-flex justify-content-center align-items-center">
+                            <div class="circle_2 d-flex
+                            justify-content-center
+                            align-items-center">
+                                <p class="JetBrains">AI</p>
+                            </div>
+                        </div>
+                        <div class="line_2"></div>
+                        <div class="blueball"></div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="asset_ps_1 d-flex  align-items-center">
+                        <!-- svg -->
+                        <div class="svg_c">
+                            <svg viewbox="0 0 110 110" width="110" heigh="110">
+                                <circle class="circle_move psmv" cx="55" cy="55" r="52" fill="none" stroke="#00f0ff"
+                                    stroke-width="6">
+                            </svg>
+                        </div>
+                        <div class="circleline_2 d-flex justify-content-center align-items-center">
+                            <div class="circle_2 d-flex
+                            justify-content-center
+                            align-items-center">
+                                <p class="JetBrains">PS</p>
+                            </div>
+                        </div>
+                        <div class="line_2"></div>
+                        <div class="blueball"></div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="asset_figma_1 d-flex  align-items-center">
+                        <!-- svg -->
+                        <div class="svg_c">
+                            <svg viewbox="0 0 110 110" width="110" heigh="110">
+                                <circle class="circle_move figmamv" cx="55" cy="55" r="52" fill="none" stroke="#00f0ff"
+                                    stroke-width="6">
+                            </svg>
+                        </div>
+                        <div class="circleline_2 d-flex justify-content-center align-items-center">
+                            <div class="circle_2 d-flex
+                            justify-content-center
+                            align-items-center">
+                                <p class="JetBrains figmatext">Figma</p>
+                            </div>
+                        </div>
+                        <div class="line_2"></div>
+                        <div class="blueball"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex justify-content-end ">
+                <div class="word4">
+                    <!-- <img src="./image/word-4.png" alt=""> -->
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- 02 Work -->
+        <section class="work" id="2">
+            <div class="container">
+                <div class="row threewrapp">
+                    <div class="thsq_1 d-flex justify-content-start ">
+                        <div class="square">
+                            <div class="square_line">
+                                <div class="square_out">
+                                    <div class="square_in">
+                                        <img class="front2" src="./image/new_Prototype/2018-1.png" alt="">
+                                        <img class="back2" src="./image/new_Prototype/2018-2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thsq_2 d-flex justify-content-start">
+                        <div class="square">
+                            <div class="square_line">
+                                <img src="./image/new_Prototype/2019.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thsq_3 d-flex justify-content-start">
+                        <div class="square">
+                            <div class="square_line">
+                                <img src="./image/new_Prototype/2022.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="number_one ">
+                    <p class="Ramaraja onee">01</p>
+                    <!-- <img src="" alt=""> -->
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 03 About -->
+        <section class="about" id="3">
+            <div class="container about_point">
+                <div class="row d-flex justify-content-start">
+                    <div class="asset_uiux_1 d-flex  align-items-center">
+
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="blue_img">
+                                <!-- img -->
+                                <img class="blue_img_front" src="./image/skill-btn.png" alt="">
+                                <div class="blue_img_back"></div>
+
+                                <p class="JetBrains">UI/Ux design</p>
+                            </div>
+                        </div>
+                        <div class="line_2"></div>
+                        <div class="blueball"></div>
+                    </div>
+                </div>
+                <div class="row about_intro uiux_intro ">
+                    <p class="JetBrains ">
+                        <span>{</span>
+                        <br>
+                        "web design",
+                        <br>
+                        logical,
+                        <br>
+                        organizing;
+                        <br>
+                        <span>}</span>
+                    </p>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="asset_visual_1 d-flex  align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="blue_img">
+                                <!-- img -->
+                                <img src="./image/skill-btn.png" alt="">
+                                <div class="blue_img_back"></div>
+
+                                <p class="JetBrains">Visual design</p>
+                            </div>
+                        </div>
+                        <div class="line_2"></div>
+                        <div class="blueball"></div>
+                    </div>
+                </div>
+                <div class="row about_intro vitual_intro">
+                    <p class="JetBrains ">
+                        <span>{</span>
+                        <br>
+                        vitualizing,
+                        <br>
+                        "graphic design",
+                        <br>
+                        typography;
+                        <br>
+                        <span>}</span>
+                    </p>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="asset_service_1 d-flex  align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="blue_img">
+                                <!-- img -->
+                                <img src="./image/skill-btn.png" alt="">
+                                <div class="blue_img_back"></div>
+
+                                <p class="JetBrains">Service design</p>
+                            </div>
+                        </div>
+                        <div class="line_2"></div>
+                        <div class="blueball"></div>
+                    </div>
+                </div>
+                <div class="row about_intro service_intro">
+                    <p class="JetBrains ">
+                        <span>{</span>
+                        <br>
+                        strotegy,
+                        <br>
+                        marketing,
+                        <br>
+                        "service design thinking";
+                        <br>
+                        <span>}</span>
+                    </p>
+                </div>
+                <div class="number_two">
+                    <p class="Ramaraja twoo">02</p>
+                    <!-- <img src="" alt=""> -->
+                </div>
+            </div>
+
+        </section>
+
+        <!-- 04 service -->
+        <section class="service">
+            <div class="container cc4" id="4">
+                <div class="row sevice_light">
+                    <div class="down_line asset_html_2 d-flex  align-items-center">
+                        <div class="whiteball"></div>
+                        <div class="line_3"></div>
+                        <div class="circleline_1 d-flex justify-content-center align-items-center">
+                            <div class="wrap-card">
+                                <div class="card">
+                                    <div class="imgg circle_1 d-flex
+                                justify-content-center
+                                align-items-center">
+                                        <p class="JetBrains">html</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="down_line asset_jq_2 d-flex  align-items-center">
+                        <div class="whiteball"></div>
+                        <div class="line_3"></div>
+                        <div class="circleline_1 d-flex justify-content-center align-items-center">
+                            <div class="wrap-card">
+                                <div class="card">
+                                    <div class="imgg circle_2 d-flex
+                                justify-content-center
+                                align-items-center">
+                                        <p class="JetBrains">JQ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="down_line asset_css_2 d-flex  align-items-center">
+                        <div class="whiteball"></div>
+                        <div class="line_4"></div>
+                        <div class="circleline_1 d-flex justify-content-center align-items-center">
+                            <div class="wrap-card">
+                                <div class="card">
+                                    <div class="imgg circle_1 d-flex
+                                justify-content-center
+                                align-items-center">
+                                        <p class="JetBrains">Css</p>
+                                    </div>
+                                    <!-- <div class="imggback circle_2"></div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="down_line asset_ai_2 d-flex  align-items-center">
+                        <div class="whiteball"></div>
+                        <div class="line_3"></div>
+                        <div class="circleline_1 d-flex justify-content-center align-items-center">
+                            <div class="wrap-card">
+                                <div class="card">
+                                    <div class="imgg circle_2 d-flex
+                                justify-content-center
+                                align-items-center">
+                                        <p class="JetBrains">AI</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="down_line asset_ps_2 d-flex  align-items-center">
+                        <div class="whiteball"></div>
+                        <div class="line_4"></div>
+                        <div class="circleline_1 d-flex justify-content-center align-items-center">
+                            <div class="wrap-card">
+                                <div class="card">
+                                    <div class="imgg circle_1 d-flex
+                                justify-content-center
+                                align-items-center">
+                                        <p class="JetBrains">PS</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="down_line asset_figma_2 d-flex  align-items-center">
+                        <div class="whiteball"></div>
+                        <div class="line_5"></div>
+                        <div class="circleline_1 d-flex justify-content-center align-items-center">
+                            <div class="wrap-card">
+                                <div class="card">
+                                    <div class="imgg circle_2 d-flex
+                                justify-content-center
+                                align-items-center">
+                                        <p class="JetBrains figmatext">Figma</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="number_three d-flex justify-content-center align-items-center">
+                    <p class="Ramaraja threee">03</p>
+                </div>
+                <div class="down_info d-flex justify-content-center">
+                    <div class="info_left">
+                        <div class="fb_wrap d-flex align-items-baseline ">
+                            <div class="fb_icon pr-3 svg2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                    <path
+                                        d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                                </svg>
+                            </div>
+                            <p class="JetBrains">Anonymous</p>
+                        </div>
+                        <div class="inta_wrap d-flex align-items-baseline">
+                            <div class="inta_icon pr-3 svg2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                    <path
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                </svg>
+                            </div>
+                            <p class="JetBrains">@casaii</p>
+                        </div>
+                    </div>
+                    <div class="info_right">
+                        <div class="phone_wrap d-flex align-items-baseline ">
+                            <div class="phone_icon pr-3 svg2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                    <path
+                                        d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z" />
+                                </svg>
+                            </div>
+                            <p class="JetBrains">0911-909-558</p>
+                        </div>
+                        <div class="email_wrap d-flex align-items-baseline">
+                            <div class="email_icon pr-3 svg2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                    <path
+                                        d="M511.6 36.86l-64 415.1c-1.5 9.734-7.375 18.22-15.97 23.05c-4.844 2.719-10.27 4.097-15.68 4.097c-4.188 0-8.319-.8154-12.29-2.472l-122.6-51.1l-50.86 76.29C226.3 508.5 219.8 512 212.8 512C201.3 512 192 502.7 192 491.2v-96.18c0-7.115 2.372-14.03 6.742-19.64L416 96l-293.7 264.3L19.69 317.5C8.438 312.8 .8125 302.2 .0625 289.1s5.469-23.72 16.06-29.77l448-255.1c10.69-6.109 23.88-5.547 34 1.406S513.5 24.72 511.6 36.86z" />
+                                </svg>
+                            </div>
+                            <p class="JetBrains emm">
+                                <a class="emm" href="mailto:cassey10190@gmail.com">
+                                    cassey10190@gmail.com
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="down_last d-flex justify-content-center align-items-center">
+                <p class="JetBrains copyright">Copyright © 2022 Codesign by Casai. All Rights Reserved.</p>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        $('.asset_uiux_1 .blue_img').click(function () {
+            if ($('.uiux_intro').hasClass('opay')) {
+                $('.uiux_intro').removeClass('opay');
+            }
+            else {
+                $('.uiux_intro').addClass('opay');
+            }
+        })
+
+        $('.asset_visual_1 .blue_img').click(function () {
+            if ($('.vitual_intro').hasClass('opay')) {
+                $('.vitual_intro').removeClass('opay');
+            }
+            else {
+                $('.vitual_intro').addClass('opay');
+            }
+        })
+
+        $('.asset_service_1 .blue_img').click(function () {
+            if ($('.service_intro').hasClass('opay')) {
+                $('.service_intro').removeClass('opay');
+            }
+            else {
+                $('.service_intro').addClass('opay');
+            }
+        })
+
+        $('.myHeader2 a').click(function () {
+            if ($('.slide_nav_1').hasClass('active'), $('.line_up').hasClass('tranup'), $('.line_down').hasClass('trandn'), $('.line_middle').hasClass('none1')) {
+                $('.slide_nav_1').removeClass('active');
+                $('.line_up').removeClass('tranup');
+                $('.line_down').removeClass('trandn');
+                $('.line_middle').removeClass('none1');
+            }
+            else {
+                $('.slide_nav_1').addClass('active');
+                $('.line_up').addClass('tranup');
+                $('.line_down').addClass('trandn');
+                $('.line_middle').addClass('none1');
+            }
+        })
+
+
+        $('.menu_btn').click(function () {
+            console.log('.menu_btn', $('.menu_btn'));
+
+            // $('.line_up').css('transform','translateY(-8px) rotate(-45deg)');
+            // $('.line_bottom').css('transform','translateY(8px) rotate(45deg)');
+
+            if ($('.line_up').hasClass('tranup'), $('.line_down').hasClass('trandn'), $('.line_middle').hasClass('none1')) {
+                $('.line_up').removeClass('tranup');
+                $('.line_down').removeClass('trandn');
+                $('.line_middle').removeClass('none1');
+            }
+            else {
+                $('.line_up').addClass('tranup');
+                $('.line_down').addClass('trandn');
+                $('.line_middle').addClass('none1');
+            }
+
+            if ($('.slide_nav_1').hasClass('active')) {
+                $('.slide_nav_1').removeClass('active');
+            }
+            else {
+                $('.slide_nav_1').addClass('active');
+            }
+
+            if ($('.myHeader').hasClass('hide')) {
+                $('.myHeader').removeClass('hide');
+            }
+            else {
+                $('.myHeader').addClass('hide');
+            }
+
+        })
+
+
+
+
+
+        console.log('nowscroll', $(this).scrollTop());
+        let lastscroll = 0;
+
+        $('#one').addClass('fillroll');
+
+        $(window).scroll(function () {
+            console.log('scrolltop', $(window).scrollTop());
+            // console.log($(window).scrollTop() > 870);
+            const nowscroll = $(window).scrollTop();
+
+            const windowheight = $(window).height();
+            const bodyheight = $('body').height();
+
+            const percentage = nowscroll / (bodyheight - windowheight) * 100;
+
+            // const triggerY = $(window).scrollTop() + ($(window).height() * .5);
+
+
+            if (nowscroll > 150 && nowscroll > lastscroll) {
+                $('.myHeader').addClass('hide');
+            }
+            else {
+                $('.myHeader').removeClass('hide');
+            }
+            if ($(window).scrollTop() > 0) {
+                $('#one').addClass('fillroll')
+                    .siblings().removeClass('fillroll');
+            }
+            if ($(window).scrollTop() > 908) {
+                $('#two').addClass('fillroll')
+                    .siblings().removeClass('fillroll');
+            }
+            if ($(window).scrollTop() > 1843) {
+                $('#three').addClass('fillroll')
+                    .siblings().removeClass('fillroll');
+            }
+            if ($(window).scrollTop() > 2658) {
+                $('#four').addClass('fillroll')
+                    .siblings().removeClass('fillroll');
+            }
+
+            lastscroll = $(window).scrollTop();
+
+            // 由下往上浮現
+            if (percentage > 2) {
+                $('.word4').css('transfrom', 'translateY(0)').css('opacity', '1');
+                $('.work').css('transfrom', 'translateY(0)').css('opacity', '1');
+            }
+            else {
+                $('.word4').css('transfrom', 'translateY(100%)').css('opacity', '0');
+                $('.work').css('transfrom', 'translateY(-200px)').css('opacity', '1');
+            }
+
+        })
+
+
+
+        // var page = 0;
+
+        // $('.point_right a').mouseenter(function () {
+        //     console.log('hi', $(this).index());
+        //     page = $(this).index();
+        //     colorchange();
+
+        // })
+
+        // function colorchange() {
+        //     $('.point_right a').eq(page)
+        //         .css('background-color', '#00f0ff')
+        //         .siblings().css('background-color', 'transparent');
+        // }
+
+
+        // console.log('height', $(window).height());
+        // console.log('offsetTop_1', $('#1').offset().top);
+        // console.log('offsetTop_2', $('#2').offset().top);
+        // console.log('offsetTop_3', $('#3').offset().top);
+        // console.log('offsetTop_4', $('#4').offset().top);
+
+        var path = document.querySelector('#test');
+        var pathLength = path.getTotalLength();
+
+        path.style.strokeDasharray = pathLength + ' ' + pathLength;
+        path.style.strokeDashoffset = pathLength;
+
+        window.addEventListener("scroll", function (e) {
+            // what %
+            var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+            // length to offset
+            var drawLength = pathLength * scrollPercentage;
+            // draw in 
+            path.style.strokeDashoffset = pathLength - drawLength;
+
+        });
+        // 交接點
+        if (scrollPercentage >= 0.99) {
+            path.style.strokeDasharray = "none";
+        }
+        else {
+            path.style.strokeDasharray = pathLength + ' ' + pathLength;
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
