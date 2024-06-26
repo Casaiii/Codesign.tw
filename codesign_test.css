@@ -50,6 +50,7 @@ body {
 }
 /* -------------- bg3 ---------------*/
 .bg3 {
+  /* 這是背景線條 */
   width: 100%;
   /* max-width: 1440px; */
   /* width: 1440px; */
@@ -66,7 +67,7 @@ body {
 .timeline , .TM2 {
   width: 100%;
   position: absolute;
-  stroke: #0004ff;
+  stroke: #fff;
   stroke-width: 10px;
 }
 .bigball , .bigball2 {
